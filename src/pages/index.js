@@ -5,14 +5,20 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center">
       <div>
-        <h1 className="text-green-700 text-5xl text-center font-extrabold py-6">
+        <h1 className="text-teal-900 text-5xl text-center font-extrabold py-6">
           Color list
         </h1>
         <ul className="text-left">
           {colors.map((color) => (
-            <li className="py-2 list-none text-lg" key={color.name}>
+            <li
+              className="py-2 list-none text-lg text-pink-900"
+              key={color.name}
+            >
               <Link href={`/${color.name}`}>
-                <div>{color.name}</div>
+                🎨
+                <div className="inline underline decoration-dotted pl-2">
+                  {color.name}
+                </div>
               </Link>
             </li>
           ))}
