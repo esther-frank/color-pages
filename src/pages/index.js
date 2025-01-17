@@ -14,6 +14,7 @@ export default function Home() {
               className="py-2 list-none text-lg text-pink-900"
               key={color.name}
             >
+              {/* hello, testing! */}
               <Link href={`/${color.name}`}>
                 🎨
                 <div className="inline underline decoration-dotted pl-2">
