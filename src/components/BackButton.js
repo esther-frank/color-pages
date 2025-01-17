@@ -4,6 +4,6 @@ export default function BackButton () {
     const router = useRouter()
 
     return (
-        <button style={{backgroundColor: 'white', padding: '10px', borderRadius: '5px'}} className='w-fit' onClick={() => router.back()}>go back</button>
+        <button className='bg-white p-2.5 rounded-md w-fit' onClick={() => router.back()}>go back</button>
     )
 }
