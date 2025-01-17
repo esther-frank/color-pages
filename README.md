@@ -21,7 +21,7 @@ The home page has a list of colours. If you click on one of them, you'll be take
 
 Clone the repo to your local machine:
 
-`git clone git@github.com:esther-frank/color-pages.git`
+`git clone https://github.com/esther-frank/color-pages.git`
 
 `npm install`
 

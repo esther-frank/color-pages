@@ -19,9 +19,9 @@ export async function getStaticProps ({params}) {
 
 export default function ColorPage ({color}) {
     return (
-        <div style={{backgroundColor: color.hex}}>
-            <h1>{color.name}</h1>
-            <p>Hex code: {color.hex}</p>
+        <div style={{backgroundColor: color.hex}} className='p-8 flex flex-col gap-8 h-full'>
+            <h1 className='text-4xl font-extrabold'>{color.name}</h1>
+            <p className='text-2xl font-medium'>Hex code: {color.hex}</p>
             <BackButton />
         </div>
     )
